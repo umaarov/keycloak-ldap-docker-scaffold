@@ -1,0 +1,19 @@
+dn: ou=users,dc=example,dc=org
+objectClass: organizationalUnit
+ou: users
+
+dn: cn=einstein,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+givenName: Albert
+sn: Einstein
+cn: einstein
+mail: albert.einstein@example.org
+userPassword: password
+
+dn: cn=newton,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+givenName: Isaac
+sn: Newton
+cn: newton
+mail: isaac.newton@example.org
+userPassword: password
